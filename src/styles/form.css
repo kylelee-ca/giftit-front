@@ -9,29 +9,22 @@
     border-right: rgba(0,0,0, 0.1) solid 1px;
     height: 100%;
 }
-
 .form-container form {
     width: 50%;
     border-right: rgba(0,0,0, 0.1) solid 1px;
 }
-
 .form-heading {
     width: 90%;
     margin: 20px auto;
     
 }
-
 .form-item, .form-items {
     margin: 10px auto;
-    width: 90%;
-    
+    width: 90%;   
 }
-
-.form-item p{
-    
+.form-item p{   
     margin-bottom: 10px;
 }
-
 .form-item input, .form-btn{
     display: block;
     width: 100%;
@@ -41,37 +34,34 @@
     font-size: 16px;
     padding: 0 5px;
 }
-
 .form-btn {
     color: #fff;
     background-color: var(--blue);
 }
-
 .form-btn:hover {
     background-color: #a2d1f5;
 }
-
 .form-image {
     width: 50%;
     margin:  20px;
 }
-
 .form-image img {
     width:100%;
     height: 100%;
     object-fit: contain;
 }
 .form-items {
-    display: flex;
-   
+    display: flex; 
     justify-content: space-between;
-
 }
 .form-items .form-item {
     width: 45%;
     margin: 0;
 }
 
+.form-link{
+    color: #1C3879;
+}
 @media screen and (max-width: 768px) {
     .form-image{
         display: none;
@@ -80,10 +70,8 @@
         width: 100%;
         border: none;
     }
-
     .form-item, .form-heading, .form-items{
         width: 70%;
-    }
-    
+    }  
 }
 

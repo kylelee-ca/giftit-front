@@ -21,7 +21,7 @@ const Navbar = () => {
 
       <div className={navExpanded ? "nav-menu expanded" : "nav-menu"}>
         <Link to="/registry">Registry</Link>
-        <Link to="/products">Products</Link>
+        <Link to="/shop">Shop</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </div>

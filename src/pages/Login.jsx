@@ -39,10 +39,8 @@ const Login = () => {
           />
         </div>
         <div className="form-item">
-          <p>
-            <a href="#" className="form-link">
-              Forgot Password?
-            </a>
+          <p className="form-link">
+            <a href="#">Forgot Password?</a>
           </p>
           <button type="submit" className="form-btn">
             Login
