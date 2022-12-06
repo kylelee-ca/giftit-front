@@ -1,0 +1,28 @@
+.sidebar-container {
+    width: 220px;
+    height: 100vh;
+    /* border-right: rgba(0,0,0, 0.1) solid 1px; */
+    padding: 25px 50px 0px 25px;
+ 
+    font-weight: 500;
+    color: var(--grey);
+   
+}
+.sidebar-category-title {
+    border-bottom:rgba(0,0,0, 0.1) solid 1px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    
+}
+
+.sidebar-category-item {
+    margin: 15px 0;
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar-container {
+        display: none;
+    }
+}
